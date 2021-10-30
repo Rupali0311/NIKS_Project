@@ -62,7 +62,7 @@
     background-size: cover;
     overflow:hidden;
     padding-top:60px;
-    padding-bottom:60px;
+    /* padding-bottom:60px; */
     padding-left:30px;
     padding-right:30px;
     color:#777;

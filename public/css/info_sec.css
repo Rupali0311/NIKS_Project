@@ -171,6 +171,11 @@
     background-image: url('/img/thanks.png');
 }
 
+.footer-c .box-f{
+    padding-left:30px !important;
+    padding-right:30px !important;
+}
+
 .thanks p{
     font-size:3em;
     color:#fd746c;

@@ -6,12 +6,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/login.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="/css/style.css" >
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NIKS-User Login</title>
 </head>
 <body  class="bg-secondary">
-    
+    {{>header}}
     <div class="container-fluid">
     <div class="bg-image outer"> 
       <div> <h2 class="animate__animated animate__bounceInLeft text-sm-center text-secondary" >Login</h2></div> 
@@ -35,7 +39,7 @@
     </div>
     </div>
     
-    
+    {{>footer}}
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

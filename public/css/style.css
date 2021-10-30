@@ -249,7 +249,7 @@ nav:after{
 
 
 nav ul{
-    float:right;
+    float:right !important;
     list-style:none;
     margin-right:140px;
     position:relative;
@@ -338,7 +338,7 @@ nav ul ul ul li{
 nav .logo{
     float: left;
     color:white;
-    font-size:27px;
+    font-size:27px !important;
     font-weight: 600;
     line-height:70px;
     padding-left:60px;
@@ -348,26 +348,29 @@ nav .logo{
 footer a:link,a:visited,a:active{
     text-decoration:none;
     color:#000;
+    /* margin-left:2px;
+    margin-right:2px; */
 }
 
 
 .fa-plus{
     margin-left:40px;
-    font-size:15px;
+    font-size:15px !important;
 }
 
 .show,.icon, input{
     display:none;
 }
 
-@media all and (max-width: 968px){
+@media all and (max-width: 1068px){
     nav ul{
         margin-right: 0px;
-        float:left;
+        float:left !important;
     }
     nav .logo{
-        padding-left:30px;
-        width:100%;
+        text-align:left !important;
+        padding-left:30px !important;
+        width:100% !important;
     }
     nav ul li, nav ul ul li{
         display:block;
@@ -398,7 +401,7 @@ footer a:link,a:visited,a:active{
     .show{
         display: block;
         color:white;
-        font-size:18px;
+        font-size:18px !important;
         padding:0 20px;
         line-height:70px;
         cursor:pointer;
@@ -412,7 +415,7 @@ footer a:link,a:visited,a:active{
         position:absolute;
         right:40px;
         line-height:70px;
-        font-size:25px;
+        font-size:25px !important;
         cursor:pointer;
     }
     nav ul li a:hover{
@@ -428,7 +431,7 @@ footer a:link,a:visited,a:active{
 }
 
 footer{
-    background-color:rgba(0, 0, 0, 0.452) ;
+    background-color:rgba(0, 0, 0, 0.452) !important;
 }
 
 .footer-c{
@@ -460,27 +463,30 @@ margin-bottom:3px;
     width:90%;
     margin-left:5%;
 }
+footer .p1{
+    margin-top:10px;
+}
 
 @media all and (max-width: 370px){
     nav .logo{
-        font-size:22px;
+        font-size:22px !important;
     }
     .show{
-        font-size:15px;
+        font-size:15px !important;
     }
     nav ul li a{
-        font-size:15px;
+        font-size:15px !important;
     }
 }
 
 @media all and (max-width: 320px){
     nav .logo{
-        font-size:20px;
+        font-size:20px !important;
     }
     .show{
-        font-size:12px;
+        font-size:12px !important;
     }
     nav ul li a{
-        font-size:12px;
+        font-size:12px !important;
     }
 }

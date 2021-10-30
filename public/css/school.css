@@ -33,10 +33,21 @@
 }
 
 
-.row{
+.row-1{
     position:relative;
     height:100%;
     min-height:850px;
+}
+footer .box-f{
+    margin-left:2px;
+    margin-right:2px;
+}
+
+footer a:link,a:visited,a:active{
+    text-decoration:none;
+    color:#fff !important;
+    /* margin-left:2px;
+    margin-right:2px; */
 }
 
 
@@ -155,6 +166,14 @@ img{
     background-repeat:repeat-y;
 }
 
+footer{
+    margin-top:30px;
+}
+
+footer  p{
+    font-size:0.9em !important;
+} 
+
 
 
 .box-content{
@@ -203,11 +222,11 @@ img{
 @media(max-width:1100px){
     .content{
         position:absolute;
-        margin-top:55%;
+        margin-top:640px;
         min-height:880px;
     }
     .info{
-        max-height:450px;
+        max-height:490px;
     }
     .cards{
         height:120vh;
@@ -231,10 +250,10 @@ img{
         text-align:center;
     }
     .content{
-        margin-top:68%;
+        margin-top:650px;
     }
     .info{
-        max-height:465px;
+        max-height:550px;
     }
     .text-benefits{
         position:absolute;
@@ -255,9 +274,10 @@ img{
         margin-right: 30px;
         padding-left:5%;
         padding-right:5%;
+        max-height:500px;
     }
     .content{
-        margin-top:76%;
+        margin-top:85%;
         
     }
 }
@@ -276,13 +296,16 @@ img{
     }
     .content{
         position:absolute;
-        margin-top:550px;
+        margin-top:580px;
     }
     .info h1{
-        font-size:2.5em;
+        font-size:2.2em;
     }
     .info p,span{
         font-size:1.2em;
+    }
+    .info{
+        max-height:500px;
     }
 }
 
@@ -297,7 +320,7 @@ img{
     }
     .text-benefits{
         position:absolute;
-        left:70px;
+        left:50px;
     }
     img{
         width:450px;
@@ -332,6 +355,7 @@ img{
         position:absolute;
         left:30px;
         right:30px;
+        font-size:0.9em;
     }
     .info h1{
         font-size:2.2em;
@@ -339,10 +363,13 @@ img{
     .info p{
         font-size:1.1em;
     }
+    .info{
+        max-height: 570px;
+    }
 }
 @media(max-width:450px){
     .text-benefits{
-        font-size: 0.9em;
+        font-size: 0.8em;
         left:30px;
         right:30px;
      }
@@ -354,17 +381,17 @@ img{
      }
      .content{
         position:absolute;
-        margin-top:950px;
+        margin-top:920px;
     }
     .wrap{
         height:140vh;
     }
     .info{
-        max-height:630px;
+        max-height:680px;
     }
 }
 
-@media(max-width:350px){
+@media(max-width:370px){
     .container-fluid{
         overflow:hidden;
     }
@@ -373,7 +400,7 @@ img{
         height:300px;
     }
     .text-benefits{
-        font-size: 0.8em;
+        font-size: 0.75em;
     }
     .scope{
         font-size:0.8em;
@@ -389,7 +416,7 @@ img{
         
     }
     .info h1{
-        font-size:1.7em;
+        font-size:1.5em;
         
     }
     .info p{
@@ -397,9 +424,9 @@ img{
     }
 }
 
-@media(max-width:270px){
+@media(max-width:310px){
     .info{
-        margin-left:10px;
-        margin-right:10px;
+        margin-left:15px;
+        margin-right:15px;
     }
 }

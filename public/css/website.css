@@ -68,7 +68,11 @@
     min-height:100vh;
    background-color:#97fdd72e;
     overflow:hidden;
-    padding-bottom:60px;
+    /* padding-bottom:60px; */
+}
+
+footer{
+    margin-top:30px;
 }
 
 #row-1{

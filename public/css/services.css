@@ -201,7 +201,11 @@ div.in-view {
     /* background-image: url('/img/lastbg.png'); */
     background-size: cover;
     overflow:hidden;
-    padding-bottom:60px;
+    padding-bottom:0px;
+}
+
+footer {
+    margin-top:30px;
 }
 
 .box{

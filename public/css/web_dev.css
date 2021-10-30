@@ -74,6 +74,11 @@
     margin-right:5%;
 }
 
+.footer-c .box-f{
+    padding-left:30px !important;
+    padding-right:30px !important;
+}
+
 .card-2 .inner-box{
     position:relative;
     top:-70px;

@@ -12,6 +12,10 @@
 body{
     height:100vh;z-index:-1;
 }
+footer a:link,a:visited,a:active{
+    text-decoration: none;
+    color:#fff !important;
+}
 
 
 .container-fluid {

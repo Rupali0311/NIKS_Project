@@ -8,17 +8,28 @@
     
 }
 
+html{
+    height:100vh;
+}
+body{
+    height:100%;
+}
+
 .container-fluid{
     padding-left: 0px;
     padding-right:0px;
     overflow-x:hidden;
+   height:100%;
+}
+.wrapper{
+    min-height:100%;
 }
 
 
 .wrap{
    
     position:absolute;
-    height:100vh;
+    min-height:100vh;
     width:100%;
     background:#001923;
     background-image: url('/img/enrol.jpg');
@@ -55,7 +66,7 @@
 }
 
 
-.btn-light{
+.info .btn-light{
     position:relative;
     width:95%;
     margin-left:3%;
@@ -72,14 +83,20 @@ a:link {
 
 
 @media(max-width:992px){
+    .container-fluid{
+        height:130%;
+    }
     .wrap{
-        min-height:110vh;
+        min-height:130vh;
     }
 }
 
 @media(max-width:768px){
+    .container-fluid{
+        height:175%;
+    }
     .wrap{
-        min-height:160vh;
+        min-height:175vh;
     }
 }
 

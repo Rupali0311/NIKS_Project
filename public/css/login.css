@@ -54,6 +54,10 @@ h2{
     margin-top:40px;
     padding-left:15%;
 }
+footer a:link,a:visited,a:active{
+    text-decoration: none;
+    color:#fff !important;
+}
 
 
 @media(max-width:768px){

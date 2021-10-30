@@ -4,19 +4,21 @@
     height:90vh;
     width:100%;
     overflow:hidden;
-    display:flex;
+    display:block;
    flex-direction: column;
    
 }
 
 .content{
     position:absolute;
+   
     z-index:9;
     margin-top:30%;
     margin-left:5%;
     margin-right:5%;
     margin-bottom :0%;
     width:90%;
+    height:auto;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color: #fff;

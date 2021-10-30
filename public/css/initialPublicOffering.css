@@ -8,17 +8,25 @@
     
 }
 
+html{
+    height:100%;
+}
+body{
+    height:100%;
+}
+
 .container-fluid{
     padding-left: 0px;
     padding-right:0px;
     overflow-x:hidden;
+    height:100%;
 }
 
 
 .wrap{
    
     position:absolute;
-    height:100vh;
+    min-height:100vh;
     width:100%;
     background:#001923;
     background-image: url('/img/enrol.jpg');
@@ -55,7 +63,7 @@
 }
 
 
-.btn-light{
+.info .btn-light{
     position:relative;
     width:95%;
     margin-left:3%;

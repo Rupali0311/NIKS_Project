@@ -16,7 +16,7 @@
 .content{
     position:absolute;
     z-index:100;
-    margin-top:45%;
+    margin-top:600px;
     margin-left:5%;
     margin-right:5%;
     margin-bottom :30%;
@@ -32,11 +32,29 @@
    overflow:hidden;
 }
 
+footer{
+    margin-top:30px;
+}
 
-.row{
+footer  p{
+    font-size:0.9em !important;
+} 
+footer .box-f{
+    margin-left:2px;
+    margin-right:2px;
+}
+
+footer a:link,a:visited,a:active{
+    text-decoration:none;
+    color:#fff !important;
+    /* margin-left:2px;
+    margin-right:2px; */
+}
+
+.row-1{
     position:relative;
     height:100%;
-    min-height:900px;
+    min-height:1150px;
 }
 
 
@@ -54,9 +72,9 @@
 .info{
     position:absolute;
     z-index:30;
-    margin-top:100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top:80px;
+    margin-left: 80px;
+    margin-right: 80px;
     padding-left:5%;
     padding-right:5%;
     padding-top: 5%;
@@ -69,7 +87,7 @@
     border-radius:10px;
     overflow:hidden;
     backdrop-filter:blur(25px);
-    max-height:400px;
+    max-height:520px;
 }
 
 
@@ -113,8 +131,8 @@ img{
 
 .cards{
     position:absolute;
-    width:80%;
-    height:120vh;
+    width:90%;
+    height:160vh;
     box-shadow:inset 5px 5px 5px rgba(0,0,0,0.05),
                inset -5px -5px 5px rgba(255,255,255,0.5),
                5px 5px 5px rgba(0,0,0,0.5),
@@ -203,14 +221,14 @@ img{
 @media(max-width:1100px){
     .content{
         position:absolute;
-        margin-top:55%;
+        margin-top:600px;
         min-height:1000px;
     }
     .info{
-        max-height:450px;
+        max-height:500px;
     }
     .cards{
-        height:140vh;
+        height:160vh;
         font-size:0.9em;
     }
     .left{
@@ -232,7 +250,7 @@ img{
         text-align:center;
     }
     .content{
-        margin-top:68%;
+        margin-top:700;
         min-height:880px;
     }
     .left{
@@ -242,7 +260,7 @@ img{
         min-height:880px;
     }
     .info{
-        max-height:465px;
+        max-height:520px;
     }
     .text-benefits{
         position:absolute;
@@ -266,7 +284,7 @@ img{
         padding-right:5%;
     }
     .content{
-        margin-top:76%;
+        margin-top:700px;
         
     }
 }
@@ -285,7 +303,10 @@ img{
     }
     .content{
         position:absolute;
-        margin-top:550px;
+        margin-top:600px;
+    }
+    .info{
+        max-height:540px;
     }
     .info h1{
         font-size:2.5em;
@@ -319,9 +340,17 @@ img{
         margin-top:700px;
     }
     .info{
-        max-height:530px;
+        max-height:600px;
         padding-left:5px;
         padding-right:5px;
+    }
+    .cards{
+        height:150vh;
+        width:90%;
+        left:3%;
+    }
+    .right{
+        min-height:1150px;
     }
 }
 
@@ -330,12 +359,12 @@ img{
         width:350px;
     }
     .cards{
-        height:130vh;
+        height:150vh;
         width:90%;
         left:3%;
     }
     .right{
-        min-height:950px;
+        min-height:1150px;
     }
     .text-benefits{
         position:absolute;
@@ -369,7 +398,7 @@ img{
         height:140vh;
     }
     .info{
-        max-height:630px;
+        max-height:750px;
     }
 }
 
@@ -394,7 +423,7 @@ img{
         
       
         margin-top:10%;
-        max-height:700px;
+        max-height:800px;
         
     }
     .info h1{
