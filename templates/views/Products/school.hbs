@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/school.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKS-School Management System</title>
+</head>
+<body>
+    <div class="container-fluid mx-0 px-0">
+        <div class="wrapper" id="wrapper">
+            <div class="wrap" id="wrap"></div>
+            <div class="info" id="info">
+                <h1 class="text-sm-center" class="text" id="text-h1">SCHOOL MANAGEMENT SYSTEM</h1>
+            <hr id="hr" class="mx-auto w-50 text"  style="height:4px;background: #f4f3f2;color:#fff;border:none;text-shadow:2px 2px 5px rgba(210, 56, 56, 1.0);"/>
+            <p class="text-sm-center" >
+               The School Management System is a business Optimization of school or Educational Institute and its
+                Processes. It is designed for better interaction between students, teachers, parents & management.
+                 This management software very gracefully handles all the requirements for easy school management.
+                The school management system being web based can be accessed from anywhere in the world, which
+                 enables the students, teachers, parents & the management be in touch with each other at all times.
+            </p>
+            </div>
+            
+            <div class="content" id="content">
+                <div class="row ">
+                    <div class="col-lg-6 col-offset-2 left">
+                        
+                       
+                        <div class="benefits px-5 pt-5 pb-5">
+                            <h3 class="text-sm-center mb-3 ">Benefits</h3>
+                         <hr id="hr" class="mx-auto w-50 text mb-4"  style="height:3px;background: #ff9068;border:none;text-shadow:2px 2px 5px rgba(210, 56, 56, 1.0);"/>
+                         <div class="text-benefits">
+                            * Effective communication between teachers, parents and students<br/>
+                            * Complete automation of all operations<br/>
+                            * Centrally stored information with zero redundancy<br/>
+                            * Frequent interaction with teachers<br/>
+                            * Reliable update on child's attendance, progress report and fee payment.<br/>
+                            * Tracking of homework assigned by teacher to their child<br/>
+                            * Prior information about school events and holidays<br/>
+                            * Automated student attendance<br/>
+                            * Computerized management of marks and grades<br/>
+                            * Homework assignment to students and approval<br/>
+                            * Enhanced interaction with teachers, parents<br/>
+                            * Online submission of homework<br/>
+                            * Access to attendance, timetable, marks, grades and examination schedule<br/>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-offset-2 right pb-0 mb-0 scope">
+                        <h3 class="text-sm-center mt-5 ">Scope of Work</h3>
+                         <hr id="hr" class="mx-auto w-50 text mb-3"  style="height:3px;background: #ff9068;border:none;text-shadow:2px 2px 5px rgba(210, 56, 56, 1.0);"/>
+                        <div class="cards pt-3">
+                            <div class="box">
+                                
+                                <div class="box-content">
+                                    *Registration of Students<br/>
+                                    *Information / Inquiry<br/>
+                                    *Course / Syllabus<br/>
+                                    *Library Management<br/>
+                                    *Payroll System<br/>
+                                    *Transport Management<br/>
+                                    *Fees Management<br/>
+                                    *Student Attendance System<br/>
+                                    *Student Information Management<br/>
+                                    *Hostel Management<br/>
+                                    *System Management<br/>
+                                    *Chat / Communication Module<br/>
+                                    *Human Resource Management System<br/>
+                                    *Certificates Awarded<br/>
+                                    *Financial Accounting<br/>
+                                    *Assets Management<br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <script type="text/javascript">
+        let bg = document.getElementById("wrapper")
+        let wrap = document.getElementById("wrap")
+        let info = document.getElementById("info")
+        
+        let content = document.getElementById("content")
+        
+        window.addEventListener('scroll', function(){
+            var value=window.scrollY;
+            bg.style.top=value*0.01 + 'px';
+            wrap.style.top=-value*0.6 + 'px';
+            info.style.top=value*0.3 + 'px';
+            
+            content.style.top=-value*0.5 + 'px';
+            
+            
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+*{
+    font-family:sans-sarif;
+}
+
+
+
+
+.wrapper{
+    display:flex;
+   flex-direction: column;
+   height: auto;
+    background-color: #301934;
+    overflow: hidden;
+}
+
+.content{
+    position:absolute;
+    z-index:100;
+    margin-top:45%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom :30%;
+    width:90%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+     background-color: #fff;
+    font-size:1.3em;
+   min-height:620px;
+   overflow:hidden;
+   background: rgb(231, 227, 227) url(http://quomodosoft.com/html/agencyfy/agencyfy/assets/img/bg-layers/subscriber-bg.png) no-repeat scroll center center/contain;
+
+}
+
+
+.row{
+    position:relative;
+    height:100%;
+    min-height:850px;
+}
+
+.text-el{
+    position:relative;
+    margin-left:10%;
+}
+.wrap{
+    background-image: url('/img/hospital.jpg');
+    background-blend-mode:darken;
+    background-size: cover;
+    height:95vh;
+    width:100%;
+    overflow:hidden;
+    filter: brightness(20%);
+    z-index:1;
+}
+
+.info{
+    position:absolute;
+    z-index:30;
+    width:80%;
+    margin-top:200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    overflow:hidden;
+    backdrop-filter:blur(25px);
+    max-height:400px;
+}
+
+
+
+.info h1{
+    position:relative;
+    color:#ffffff;
+    text-shadow:4px 4px 5px rgba(156, 160, 201,1.0);
+    font-size:2.9em;
+    z-index:9;
+}
+
+.box{
+    position:relative;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:8%;
+    padding-top:20px;
+    padding-bottom:50px;
+    padding-left:50px;
+    padding-right:50px;
+    justify-content:space-between;
+    align-items:center;
+    background:#97fdd72e;;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    border-radius:20px;
+    backdrop-filter: blur(10px);
+    border:1px solid rgba(255,255,255,0.25);
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left:1px solid rgba(255,255,255,0.5);
+    color:#777;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+.box h3{
+    text-align:center;
+    font-size:2em;
+    color:#fd746c;
+    margin-top:30px;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+
+
+
+
+@media(max-width:1100px){
+    .content{
+        position:absolute;
+       
+        min-height:600px;
+    }
+}
+
+@media(max-width:991px){
+   
+    
+}
+
+@media(max-width:850px){
+   .content{
+       position:absolute;
+       margin-top:450px;
+   }
+    
+}
+
+@media(max-width:750px){
+    
+    
+}
+
+
+@media(max-width:650px){
+    .info h1,p,span{
+        text-align:center;
+        margin:0;
+    }
+    h3{
+        text-align:center;
+    }
+   
+    .wrap{
+        height:120vh;
+    }
+    .content{
+        position:absolute;
+        margin-top:500px;
+    }
+    .info{
+        max-height:530px;
+        padding-left:5px;
+        padding-right:5px;
+    }
+}
+
+@media(max-width:550px){
+   
+    .info h1{
+        font-size:2.2em;
+    }
+    
+}
+@media(max-width:450px){
+   .info h1{
+       font-size:2em;
+   }
+     .content{
+        position:absolute;
+        margin-top:550px;
+    }
+    .wrap{
+        height:140vh;
+    }
+    .text-el{
+        margin-left:5%;
+    }
+    .box{
+        padding-left:20px;
+        padding-right:20px;
+    }
+}
+
+@media(max-width:350px){
+    .container-fluid{
+        overflow:hidden;
+    }
+   .text-el{
+       font-size:0.8em;
+   }
+   
+    .info h1{
+        font-size:1.6em;
+        
+    }
+    .box h3{
+        text-align:center;
+        font-size:1.6em;
+        color:#fd746c;
+        margin-top:30px;
+        margin-left:30px;
+        margin-right:30px;
+    }
+    
+}
+

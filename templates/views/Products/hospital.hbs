@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/hospital.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKS-Hospital Management System</title>
+</head>
+<body>
+    <div class="container-fluid mx-0 px-0">
+        <div class="wrapper" id="wrapper">
+            <div class="wrap" id="wrap"></div>
+            <div class="info" id="info">
+                <h1 class="text-sm-center" class="text" id="text-h1">HOSPITAL MANAGEMENT SYSTEM</h1>
+            <hr id="hr" class="mx-auto w-50 text"  style="height:4px;background: #f4f3f2;color:#fff;border:none;text-shadow:2px 2px 5px rgba(210, 56, 56, 1.0);"/>
+            <p class="text-sm-center" >
+                Niks HMS is an integrated solution for Hospital Management System which has been designed to
+                 provide maximum support to the management of multi- specialty hospitals. Niks HMS has been 
+                 engineered considering the vital needs of all the stakeholders of the organization. It also
+                  includes the most vital functionality of customization as per client needs. It is user friendly, 
+                  technologically updated and a web based application Based on SOA (Service-oriented Architecture)
+                   support, it is easy to integrate with the existing legacy systems.
+            </p>
+            </div>
+            
+            <div class="content" id="content">
+                <div class="row ">
+                    <div class="col-lg-6 col-offset-2 left">
+                        
+                        <div class="image">
+                            <img src="/img/hosp.png"/>
+                            
+                        </div>
+                        <div class="benefits px-5 pt-5 pb-5">
+                            <h3 class="text-sm-center mb-3 ">Benefits</h3>
+                         <hr id="hr" class="mx-auto w-50 text mb-4"  style="height:3px;background: #ff9068;border:none;text-shadow:2px 2px 5px rgba(210, 56, 56, 1.0);"/>
+                         <div class="text-benefits">
+                            * It fits with your legacy systems<br/>
+                            * Highly Customized product modules<br/>
+                            * Highly competitive pricing<br/>
+                            * 24X7 data support and backup round the clock<br/>
+                            * Dynamic 3-Tier Architecture<br/>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-offset-2 right pb-0 mb-0 scope">
+                        <h3 class="text-sm-center mt-5 ">Scope of Work</h3>
+                         <hr id="hr" class="mx-auto w-50 text mb-3"  style="height:3px;background: #ff9068;border:none;text-shadow:2px 2px 5px rgba(210, 56, 56, 1.0);"/>
+                        <div class="cards pt-3">
+                            <div class="box">
+                                
+                                <div class="box-content">
+                                    * Patient Registration<br/>
+                                    * Appointments scheduling<br/>
+                                    * Billing and payments (cash, CC, insurance)<br/>
+                                    * Security of the whole system<br/>
+                                    * Payroll System<br/>
+                                    * Pharmaceutical drugs/equipment<br/>
+                                    * Staff management (work roster, availability, scheduling, etc.)<br/>
+                                    * Management functions (report generation, accounting, etc.)<br/>
+                                    * System administration<br/>
+                                    * Resource allocation (booking rooms, operating theatres, etc.)<br/>
+                                    * System Management<br/>
+                                    * Comprehensive database<br/>
+                                    * Human Resource Management System<br/>
+                                    * Web interface (proposed for future)<br/>
+                                    * Financial Accounting<br/>
+                                    * Assets Management<br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <script type="text/javascript">
+        let bg = document.getElementById("wrapper")
+        let wrap = document.getElementById("wrap")
+        let info = document.getElementById("info")
+        
+        let content = document.getElementById("content")
+        
+        window.addEventListener('scroll', function(){
+            var value=window.scrollY;
+            bg.style.top=value*0.01 + 'px';
+            wrap.style.top=-value*0.6 + 'px';
+            info.style.top=value*0.3 + 'px';
+            
+            content.style.top=-value*0.5 + 'px';
+            
+            
+        })
+    </script>
+</body>
+</html>

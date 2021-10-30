@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+    
+}
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right:0px;
+    overflow-x:hidden;
+}
+
+
+.wrap{
+   
+    position:relative;
+    min-height:140vh;
+    
+    width:100%;
+    background:#001923;
+    background-image: url('/img/enrol.jpg');
+    filter:brightness(80%);
+}
+
+.info{
+    position:absolute;
+    z-index:30;
+    top:100px;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background:rgba(255,255,255,0.1);
+    box-shadow:0 25px 45px rgba(0,0,0,0.1);
+    border:1px solid rgba(255,255,255,0.25);
+    border-right:1px solid rgba(255,255,255,0.1);
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    border-radius:10px;
+    overflow:hidden;
+    backdrop-filter:blur(25px);
+    min-height:400px;
+}
+
+.info h3{
+    text-align:center;
+    font-size:2em;
+    color:#fff;
+}
+
+
+.btn-light{
+    position:relative;
+    width:95%;
+    margin-left:3%;
+    margin-right:2%;
+    margin-top:5%;
+    margin-bottom:5%;
+    min-height:60px;
+}
+a:link {
+    text-decoration: none;
+    color:#777;
+    display: inline-block;
+  }
+
+
+  @media(max-width:992px){
+      .wrap{
+          min-height:165vh;
+      }
+  }
+
+
+  @media(max-width:768px){
+    .wrap{
+        height:310vh;
+    }
+}
+
+@media(max-width:650px){
+    .wrap{
+        height:280vh;
+    }
+}
+
+@media(max-width:550px){
+    .wrap{
+        height:260vh;
+    }
+}
+
+@media(max-width:450px){
+    .wrap{
+        height:250vh;
+    }
+}
+
+@media(max-width:350px){
+    .wrap{
+        height:230vh;
+    }
+    .info{
+        width:95%;
+        margin-left:3%;
+        margin-right:2%;
+        padding-left:1%;
+    padding-right:1%;
+    
+    }
+    a:link{
+        font-size:0.9em;
+    }
+}

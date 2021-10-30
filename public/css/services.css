@@ -1,0 +1,402 @@
+/* 
+
+
+
+
+  *, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ #first-row-image{
+     position:absolute;
+     margin-bottom:0;
+ }
+
+ #second-row-image{
+    position:absolute;
+    margin-bottom:0;
+}
+
+#third-row-image{
+    position:absolute;
+    margin-bottom:0;
+}
+
+.description{
+    position:absolute;
+    padding-left:41%;
+    padding-top:2%;
+    padding-right:2%;
+    font-family:sans-serif;
+    font-style: italic;
+    color:#444400;
+    font-size:0.9em;
+}
+
+.heading{
+    position:absolute;
+    padding-left:0%;
+    margin-left:0%;
+    padding-top:30%;
+    font-family:sans-serif;
+    font-style:oblique;
+    font-size:0.85em;
+}
+
+.card::after{
+position:after;
+transform: translateX(-50%) ;
+}
+
+:nth-of-type(odd)>.card{
+    transform: translate3d(0px, -10px, 0) ;
+}
+:nth-of-type(even)>.card{
+    transform: translate3d(100px, -10px, 0) rotate(10deg);
+}
+div.in-view {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+.card{
+    
+        visibility: hidden;
+        opacity: 0;
+        transition: transform 0.2s ease;
+      
+}
+
+#first-row-title{
+    transition: transform 0.2s ease;
+}
+
+#first-row-title:hover{
+    transform:scale(1.02);
+    overflow:hidden;
+}
+#second-row-title{
+    transition: transform 0.2s ease;
+}
+
+#second-row-title:hover{
+    transform:scale(1.02);
+}
+#third-row-title{
+    transition: transform 0.2s ease-in;
+}
+
+#third-row-title:hover{
+    transform:scale(1.02);
+    overflow:hidden;
+}
+  
+
+.slide{
+    position:absolute;
+    transition: all 0.6s ease-in-out;
+    top:0;
+}
+.other-services{
+    z-index:5;
+    opacity:0;
+}
+
+.cyber-security{
+    z-index:1;
+   
+}
+
+.right-slide-active{
+   
+    right:100%;
+    transform:translate(-100%);
+}
+
+.left-slide-active{
+    opacity:1;
+    z-index:5;
+    
+} */
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+    
+}
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right:0px;
+    overflow:hidden;
+}
+
+.wrapper{
+    overflow:hidden;
+}
+
+.wrap{
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0px;
+    filter:brightness(50%);
+    min-height:100vh;
+    width:100%;
+    background:url('/img/cyberSecurity.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.info{
+    position:relative;
+    z-index:30;
+    margin-top:40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left:4%;
+    padding-right:4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width:80%;
+    background:rgba(255,255,255,0.1);
+    box-shadow:0 25px 45px rgba(0,0,0,0.1);
+    border:1px solid rgba(255,255,255,0.25);
+    border-right:1px solid rgba(255,255,255,0.1);
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    border-radius:10px;
+    overflow:hidden;
+    backdrop-filter:blur(25px);
+    max-height:400px;
+    color:#fff;
+    text-align:center;
+    
+}
+
+.info h1{
+    font-size:2.8em;
+}
+
+.content{
+    position:absolute;
+    top:100vh;
+    width:100%;
+    min-height:100vh;
+    background: rgb(231, 227, 227) url(http://quomodosoft.com/html/agencyfy/agencyfy/assets/img/bg-layers/subscriber-bg.png) no-repeat scroll center center/contain;
+    /* background-image: url('/img/lastbg.png'); */
+    background-size: cover;
+    overflow:hidden;
+    padding-bottom:60px;
+}
+
+.box{
+    position:relative;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:8%;
+    padding:50px 50px;
+    justify-content:space-between;
+    align-items:center;
+    background:#97fdd72e;;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+    border-radius:20px;
+    backdrop-filter: blur(10px);
+    border:1px solid rgba(255,255,255,0.25);
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left:1px solid rgba(255,255,255,0.5);
+    color:#777;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    text-align:center;
+}
+
+.content h4{
+    text-align:center;
+    font-size:2em;
+    color:#fd746c;
+    margin-top:60px;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+#hr{
+    position:relative;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.img-1{
+    background-image: url('/img/petera.jpg');
+    background-size:cover;
+    width:100%;
+    height:200px;
+}
+
+
+.img-2{
+    background-image: url('/img/security.png');
+    background-size:cover;
+    width:100%;
+    height:200px;
+}
+
+.img-3{
+    background-image: url('/img/phishing.jpg');
+    background-size:cover;
+    width:100%;
+    height:200px;
+}
+
+.img-4{
+    background-image: url('/img/mobile.jpg');
+    background-size:cover;
+    width:100%;
+    height:200px;
+}
+
+.img-5{
+    background-image: url('/img/consult.jpg');
+    background-size:cover;
+    width:100%;
+    height:200px;
+}
+
+.img-6{
+    background-image: url('/img/seminar.jpg');
+    background-size:cover;
+    width:100%;
+    height:200px;
+}
+
+.box-1{
+    position:relative;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:8%;
+    padding:50px 50px;
+    justify-content:space-between;
+    align-items:center;
+    background:#fff;
+    /* box-shadow: 0 15px 35px rgba(0,0,0,0.5); */
+    border-radius:20px;
+    backdrop-filter: blur(10px);
+    border:1px solid rgba(255,255,255,0.25);
+    border-top:1px solid rgba(255,255,255,0.5);
+    border-left:1px solid rgba(255,255,255,0.5);
+    color:#777;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:10px 10px 5px rgba(252, 56, 56, 0.2);
+height:500px;
+}
+
+.box-1 h5{
+    position:relative;
+    margin-top:20px;
+    color:#fd746c;
+}
+
+
+.box-1:hover {
+    color:#fff;
+    background:#f7aa8e;
+}
+
+.box-1:hover h5{
+    color:#fff;
+    background:#f7aa8e;
+}
+
+
+@media(max-width:1039px){
+    .box-1{
+        position:relative;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    padding:30px 30px;
+    }
+}
+
+@media(max-width:768px){
+    .box-1{
+        position:relative;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    padding:50px 50px;
+    height:500px;
+    }
+}
+
+@media(max-width:550px){
+    .box-1{
+        position:relative;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    padding:30px 30px;
+    height:500px;
+    }
+}
+
+@media(max-width:400px){
+    .box-1{
+        position:relative;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    padding:30px 15px;
+    height:575px;
+    }
+    .info h1{
+        font-size:2em;
+    }
+    .box{
+        position:relative;
+        width:90%;
+        margin-left:5%;
+        margin-right:5%;
+        margin-top:8%;
+        padding:20px 10px;
+    }
+    .content h4{
+        text-align:center;
+        font-size:1.5em;
+        color:#fd746c;
+        margin-top:60px;
+        margin-left:15px;
+        margin-right:15px;
+    }
+}
+
+@media(max-width:300px){
+    .box-1{
+        position:relative;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    padding:30px 15px;
+    height:650px;
+    }
+}

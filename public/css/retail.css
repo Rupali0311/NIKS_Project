@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+    
+}
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right:0px;
+    overflow:hidden;
+}
+
+.wrapper{
+    overflow:hidden;
+}
+
+.wrap{
+    background-image: url('/img/retail.jpg');
+    background-blend-mode:darken;
+    background-size: cover;
+    height:100vh;
+    width:100%;
+    overflow:hidden;
+    filter: brightness(20%);
+    z-index:1;
+}
+
+
+.info{
+    position:absolute;
+    top:220px;
+    /* margin-left:90px;
+    margin-right:90px; */
+    text-align:center;
+    width:100%;
+}
+
+.info h3{
+    color:#fff;
+    font-size:3em;
+    
+}
+
+
+.content{
+    background: rgb(231, 227, 227) url(http://quomodosoft.com/html/agencyfy/agencyfy/assets/img/bg-layers/subscriber-bg.png) no-repeat scroll center center/contain;
+    /* background-image: url('/img/lastbg.png'); */
+    background-size: cover;
+    width:100%;
+    min-height:100vh;
+    padding-top:70px;
+    text-align:center;
+}
+
+.box{
+    position:relative;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    background:#97fdd72e;
+    box-shadow:0 25px 45px rgba(0,0,0,0.3);
+    border-radius:20px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:50px;
+    padding-bottom:30px;
+    min-height:450px;
+    color:#fd746c;
+    z-index:1;
+}
+
+
+.content-2{
+    position:absolute;
+    background-image: url('/img/enrol.jpg');
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    width:100%;
+    filter:brightness(80%);
+    overflow-x:hidden;
+}
+
+.content-2 .box{
+    position:relative;
+    z-index:1000;
+    width:100%;
+    max-width:1000px;
+    padding:15px;
+    padding-top:40px;
+    background:rgba(255,255,255,0.1);
+    box-shadow:0 25px 45px rgba(0,0,0,0.1);
+    border:1px solid rgba(255,255,255,0.25);
+    border-right:1px solid rgba(255,255,255,0.1);
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    border-radius:10px;
+    overflow:hidden;
+    backdrop-filter:blur(25px);
+    min-height:500px;
+    color:#fff;
+    font-size:1.3em;
+}
+
+
+@media(max-width:400px){
+    .info h3{
+        font-size:2em;
+    }
+}

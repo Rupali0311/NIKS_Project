@@ -1,0 +1,316 @@
+.wrapper{
+    background-image: url('/img/android.jpg');
+    background-size: cover;
+    height:90vh;
+    width:100%;
+    overflow:hidden;
+    display:flex;
+   flex-direction: column;
+   
+}
+
+.content{
+    position:absolute;
+    z-index:9;
+    margin-top:30%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom :0%;
+    width:90%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #fff;
+    box-shadow:0 0 100px rgba(252, 56, 56, 0.3);
+    font-family: sans-serif;
+    color:#777;
+}
+
+.info h2{
+    /* color:#ff9068; */
+    color:#f4f2f3;
+    text-shadow:2px 2px 5px rgba(210, 56, 56, 1.0);
+    
+}
+
+.row{
+    margin-top:-15px;
+    margin-bottom:-15px;
+}
+
+
+.info{
+    background-image: radial-gradient(farthest-side at top,#A9E2F3,#ffffff);
+}
+
+.info-cards{
+    background-image: radial-gradient(farthest-side at bottom,#A9E2F3,#ffffff);
+}
+
+
+.card-1{
+    border-top-left-radius:59px;
+    border-top-right-radius:59px;
+    border-bottom-left-radius:59px;
+    border-bottom-right-radius:59px;
+    background-image: radial-gradient(farthest-side at bottom,#A9E2F3,#ffffff);
+    font-size: 1.5em;
+    /* background-image: radial-gradient(farthest-side at top,#A9E2F3,#ffffff); */
+}
+
+.card-1:hover{
+    transform:scale(0.90);
+    background-image: radial-gradient(farthest-side at top,#12d0f1,#ffffff);
+    color:#f2f4f3;
+    text-shadow:2px 2px 5px rgba(210, 56, 56, 1.0);
+}
+
+
+.tools{
+    align-items:center;
+    flex-wrap: wrap;
+    padding:20px 0;
+}
+
+.cards{
+    position:relative;
+    width:90%;
+    height:40vh;
+    box-shadow:inset 5px 5px 5px rgba(0,0,0,0.05),
+               inset -5px -5px 5px rgba(255,255,255,0.5),
+               5px 5px 5px rgba(0,0,0,0.5),
+               -5px -5px 5px rgba(255,255,255,0.5);
+    border-radius: 15px;
+    margin:30px 0;
+    margin-left:10px;
+}
+
+.box{
+    position:absolute;
+    top:20px;
+    left:20px;
+    right:20px;
+    bottom:20px;
+    /* background: #ebf5fc; */
+    box-shadow:0 10px 20px rgba(0,0,0,0.1);
+    border-radius:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition:0.5%;
+}
+
+.box-content{
+    padding:5%;
+    text-align:center;
+}
+.box-content h2{
+    position:absolute;
+    top:-10px;
+    right:30px;
+    font-size:4em;
+    color:rgba(0,0,0,0.02);
+    transition:0.5%;
+    pointer-events:none;
+}
+
+
+.cards:hover h2{
+    
+    color:rgba(0,0,0,0.05);
+    
+}
+
+
+.box-content h3{
+    font-size:1.8em;
+    color:#777;
+    z-index:1;
+    transition:0.5%;
+}
+
+.box-content p{
+    font-size:1em;
+    font-weight:300;
+    color:#777;
+    z-index:1;
+    transition:0.5%;
+}
+
+.box:hover{
+    transform:translateY(-50px);
+    box-shadow:0 10px 40px rgba(0,0,0,0.2);
+    background-image: radial-gradient(farthest-side at bottom,#A9E2F3,#ffffff);
+
+}
+
+.tools{
+    background-image: radial-gradient(farthest-side at top,#A9E2F3,#ffffff);
+}
+
+#tools-heading{
+    color:#f4f2f3;
+    text-shadow:2px 2px 5px rgba(210, 56, 56, 1.0);
+}
+
+.low-cards-box{
+    border-top-left-radius:59px;
+    border-top-right-radius:59px;
+    border-bottom-left-radius:59px;
+    border-bottom-right-radius:59px;
+    background-image: radial-gradient(farthest-side at bottom,#A9E2F3,#ffffff);
+    font-size: 1.1em;
+    /* background-image: radial-gradient(farthest-side at top,#A9E2F3,#ffffff); */
+}
+
+.low-cards-box{
+    margin-top:15px;
+    margin-bottom:25px;
+    
+}
+
+.low{
+    background-image: radial-gradient(farthest-side at bottom,#A9E2F3,#ffffff);
+}
+
+.low-cards-box-content{
+    border-top-left-radius:59px;
+    border-top-right-radius:59px;
+    border-bottom-left-radius:59px;
+    border-bottom-right-radius:59px;
+    background-image: radial-gradient(farthest-side at bottom,#A9E2F3,#ffffff);
+    font-size: 1.3em;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background-image: radial-gradient(farthest-side at top,#A9E2F3,#ffffff); */
+}
+
+.low-cards-box:hover{
+    transform:scale(0.90);
+    background-image: radial-gradient(farthest-side at top,#12d0f1,#ffffff);
+    color:#f2f4f3;
+    text-shadow:2px 2px 5px rgba(210, 56, 56, 1.0);
+}
+
+.open-source h4{
+    color:#f4f2f3;
+    text-shadow:2px 2px 5px rgba(210, 56, 56, 1.0);
+}
+
+.open-source{
+        background-image: radial-gradient(farthest-side at top,#A9E2F3,#ffffff);
+}
+
+.integrate{
+    background-image: radial-gradient(farthest-side at bottom,#A9E2F3,#ffffff);
+
+}
+
+.easy{
+    background-image: radial-gradient(farthest-side at top,#A9E2F3,#ffffff);
+}
+
+.easy h4{
+    color:#f4f2f3;
+    text-shadow:2px 2px 5px rgba(210, 56, 56, 1.0);
+}
+
+.work{
+    background-image: radial-gradient(farthest-side at bottom,#A9E2F3,#ffffff);
+}
+
+
+
+
+@media all and (max-width:500px){
+    div{
+        text-align:center;
+    }
+    h3{
+        text-align:center;
+    }
+    h2{
+        text-align:center;
+    }
+    h4{
+        text-align:center;
+    }
+    
+    
+}
+
+@media all and (min-width:500px) and (max-width:700px){
+    div{
+        text-align:center;
+    }
+    h3{
+        text-align:center;
+    }
+    h2{
+        text-align:center;
+    }
+    h4{
+        text-align:center;
+    }
+    
+    
+}
+
+@media all and (min-width:576px) and (max-width:700px){
+    .cards{
+        height:65vh;
+        
+    }
+    .box-content h2{
+        font-size:3em;
+    }
+    .box-content h3{
+        font-size:1.5em;
+    }
+    
+}
+
+@media all and (max-width:576px){
+    .low-cards-box{
+        margin-bottom:2%;
+    }
+    
+}
+
+@media all and (max-width:390px){
+    .card-1{
+        margin-bottom:2%;
+    }
+    .card{
+        margin-bottom:2%;
+        font-size:1em;
+    }
+}
+
+@media all and (min-width:390px) and (max-width:576px){
+    .card-1{
+        margin-bottom:2%;
+    }
+    .card{
+        margin-bottom:2%;
+        font-size:1.2em;
+    }
+}
+@media all and (min-width:576px) and (max-width:900px){
+    .card-1{
+        margin-bottom:2%;
+    }
+    .card{
+        margin-bottom:2%;
+        height:15vh;
+        border-radius: 20px;
+    }
+}
+
+
+@media all and (min-width:576px) and (max-width:1015px){
+    .low-cards-box-content{
+        height:20vh;
+        padding-top:15%;
+    }
+    
+}
