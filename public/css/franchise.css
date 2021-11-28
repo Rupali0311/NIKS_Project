@@ -21,7 +21,7 @@
     height:100vh;
     width:100%;
     overflow:hidden;
-    filter: brightness(20%);
+    filter: brightness(100%);
     /* z-index:1; */
 }
 
@@ -35,7 +35,7 @@
     padding-right:5%;
     padding-top: 5%;
     padding-bottom: 5%;
-    background:rgba(255,255,255,0.1);
+    background:rgba(255,255,255,0.2);
     box-shadow:0 25px 45px rgba(0,0,0,0.1);
     border:1px solid rgba(255,255,255,0.25);
     border-right:1px solid rgba(255,255,255,0.1);
@@ -45,7 +45,7 @@
     backdrop-filter:blur(25px);
     max-height:400px;
     text-align:center;
-    color:#fff;
+    color:#1b1b1b;
 }
 
 .box{

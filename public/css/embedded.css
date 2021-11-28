@@ -28,27 +28,29 @@
     height:100vh;
     width:100%;
     overflow:hidden;
-    filter: brightness(20%);
-    z-index:1;
+    filter: brightness(100%);
+   
 }
 
 
 .info{
     position:absolute;
-    top:200px;
+    top:150px;
     margin-left:90px;
     margin-right:90px;
-
+    padding:20px 20px;
+    box-shadow:0 25px 45px rgba(0,0,0,0.1);
+    backdrop-filter:blur(30px);
 }
 
 .info h3{
-    color:#fff;
+    color:#1b1b1b;
     font-size:2.5em;
 }
 
 
 .info p{
-color:#fff;
+color:#1b1b1b;
 font-size:1.5em;
 }
 

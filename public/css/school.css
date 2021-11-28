@@ -401,6 +401,7 @@ footer  p{
     }
     .text-benefits{
         font-size: 0.75em;
+        
     }
     .scope{
         font-size:0.8em;
@@ -421,6 +422,18 @@ footer  p{
     }
     .info p{
         font-size:1em;
+    }
+    .cards{
+        height:135vh;
+        width:90%;
+        left:3%;
+    }
+    .right{
+        min-height:980px;
+    }
+    .left{
+        min-height:950px;
+
     }
 }
 

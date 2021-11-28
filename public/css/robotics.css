@@ -28,17 +28,19 @@
     height:100vh;
     width:100%;
     overflow:hidden;
-    filter: brightness(20%);
-    z-index:1;
+    filter: brightness(100%);
+    
 }
 
 
 .info{
     position:absolute;
-    top:200px;
+    top:150px;
+    padding:20px 20px;
     margin-left:90px;
     margin-right:90px;
-
+    backdrop-filter:blur(30px);
+    background:rgba(255,255,255,0.3);
 }
 
 .info h3{
@@ -234,14 +236,16 @@ font-size:1.5em;
 }
 
 .info{
-    top:115px;
+    top:80px;
     text-align:center;
 }
 .last h3{
     text-align:center;
     font-size:2em;
 }
-
+.info p{
+    font-size:1.2em;
+}
 .last p{
     text-align:center;
     font-size:2em;
@@ -274,7 +278,7 @@ font-size:1.5em;
         font-size:1.9em;
     }
     .info p{
-        font-size:1.15em;
+        font-size:1em;
     }
     .last hr{
         margin-top:10px;
@@ -308,7 +312,7 @@ font-size:1.5em;
         font-size:1.7em;
     }
     .info p{
-        font-size:1em;
+        font-size:0.9em;
     }
     .last .box{
         padding-top:20%;
