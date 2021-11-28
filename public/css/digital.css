@@ -13,9 +13,12 @@
     padding-right:0px;
     overflow:hidden;
 }
-
+.wrapper{
+    overflow:hidden;
+}
 
 .wrap{
+    /* position:absolute; */
     background-image: url('/img/digital.jpg');
     background-blend-mode:darken;
     background-size: cover;
@@ -23,19 +26,19 @@
     width:100%;
     overflow:hidden;
     filter: brightness(20%);
-    z-index:1;
+    /* z-index:1; */
 }
 
 .info{
     position:absolute;
-    top:200px;
+   top:200px;
     margin-left:90px;
     margin-right:90px;
 
 }
 
 .info h3{
-    color:#fff;
+    color:#fff !important;
     font-size:2em;
 }
 
@@ -79,7 +82,7 @@ font-size:1.2em;
 @media(max-width:370px){
     .info{
         position:absolute;
-        top:60px;
+        top:90px;
         margin-left:10px;
         margin-right:10px;
         text-align:center;

@@ -9,6 +9,8 @@
 
 body{
     overflow-x: hidden;
+    
+    
 }
 
 section{
@@ -18,7 +20,6 @@ section{
     min-height:100vh;
     padding:20px;
     width:100%;
-    background:#001923;
     background-image: url('/img/enrol.jpg');
     filter:brightness(80%);
 }

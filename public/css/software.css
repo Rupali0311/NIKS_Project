@@ -15,7 +15,7 @@ footer{
 
 .content{
     position:absolute;
-    z-index:9;
+    /* z-index:9; */
     margin-top:30%;
     margin-left:5%;
     margin-right:5%;

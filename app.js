@@ -19,10 +19,11 @@ const userRouter = require('./routes/user.js')
 const homeRouter = require('./routes/homePage.js')
 const profileRouter = require('./routes/userProfile.js')
 
+const app = express()
+
 const publicDirectoryPath = path.join(__dirname, '/public')
 const viewsPath = path.join(__dirname,'/templates/views')
 const partialsPath = path.join(__dirname, '/templates/partials')
-const app = express()
 
 
 app.set('view engine', 'hbs')
