@@ -37,8 +37,8 @@ width:100%;
 
 .info{
     position:absolute;
-    z-index:30;
-    margin-top:90px;
+    
+    top:120px;
     margin-left: 100px;
     margin-right: 100px;
     padding-left:4%;
@@ -69,7 +69,7 @@ font-size:2.8em;
 
 .content{
     position:absolute;
-    top:100vh;
+    margin-top:100vh;
     overflow:hidden;
     background: rgb(231, 227, 227) url(http://quomodosoft.com/html/agencyfy/agencyfy/assets/img/bg-layers/subscriber-bg.png) no-repeat scroll center center/contain;
     /* background-image: url('/img/lastbg.png'); */
@@ -117,9 +117,7 @@ footer{
 
 @media(max-width:650px){
     .info{
-        position:absolute;
-    z-index:30;
-    margin-top:40px;
+       top:60px;
     margin-left: 40px;
     margin-right: 40px;
     }
@@ -127,9 +125,7 @@ footer{
 
 @media(max-width:500px){
     .info{
-        position:absolute;
-    z-index:30;
-    margin-top:20px;
+       top:40px;
     margin-left: 20px;
     margin-right: 20px;
     max-height:500px;
