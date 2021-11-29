@@ -21,7 +21,7 @@
     justify-content:center;
     align-items:center;
     margin:0px;
-    filter:brightness(30%);
+    filter:brightness(100%);
     min-height:100vh;
     width:100%;
     background:url('/img/digitalM.jpg');
@@ -33,7 +33,7 @@
 .info{
     position:absolute;
     /* z-index:30; */
-    margin-top:200px;
+    top:140px;
     margin-left: 10%;
     margin-right: 10%;
     padding-left:4%;
@@ -41,7 +41,7 @@
     padding-top: 2%;
     padding-bottom: 2%;
     width:80%;
-    background:rgba(255,255,255,0.1);
+    background:rgba(255,255,255,0.3);
     box-shadow:0 25px 45px rgba(0,0,0,0.1);
     border:1px solid rgba(255,255,255,0.25);
     border-right:1px solid rgba(255,255,255,0.1);
@@ -50,13 +50,13 @@
     overflow:hidden;
     backdrop-filter:blur(25px);
     max-height:400px;
-    color:#fff;
+    color:#1b1b1b;
     text-align:center;
 }
 
 .content{
     position:absolute;
-    top:100vh;
+   margin-top:100vh;
     background: rgb(231, 227, 227) url(http://quomodosoft.com/html/agencyfy/agencyfy/assets/img/bg-layers/subscriber-bg.png) no-repeat scroll center center/contain;
     /* background-image: url('/img/lastbg.png'); */
     background-size: cover;

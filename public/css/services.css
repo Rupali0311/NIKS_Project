@@ -164,9 +164,8 @@ div.in-view {
 
 
 .info{
-    position:relative;
-    z-index:30;
-    margin-top:40px;
+    position:absolute;
+   top:150px;
     margin-left: 10%;
     margin-right: 10%;
     padding-left:4%;
@@ -194,7 +193,8 @@ div.in-view {
 
 .content{
     position:absolute;
-    top:100vh;
+    /* top:100vh; */
+    margin-top:100vh;
     width:100%;
     min-height:100vh;
     background: rgb(231, 227, 227) url(http://quomodosoft.com/html/agencyfy/agencyfy/assets/img/bg-layers/subscriber-bg.png) no-repeat scroll center center/contain;
