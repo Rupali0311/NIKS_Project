@@ -17,11 +17,11 @@
          <div class="container">
              <h2>Enquiry Form</h2>
          
-         <form>
+         <form method="post" action="/enquiry">
          <div class="row">
              <div class="col">
                  <div class="inputBox">
-                     <input type="text" name="" required="required"/>
+                     <input type="text" name="name" required="required"/>
                      <span class="text" >Your Name</span>
                      <span class="line"></span>
                  </div>
@@ -29,7 +29,7 @@
 
             <div class="col">
                  <div class="inputBox">
-                     <input type="text" name="" required="required"/>
+                     <input type="text" name="email" required="required"/>
                      <span class="text" >Email</span>
                      <span class="line"></span>
                  </div>
@@ -39,7 +39,7 @@
          <div class="row">
              <div class="col">
                  <div class="inputBox">
-                     <input type="text" name="" required="required"/>
+                     <input type="text" name="mobile" required="required"/>
                      <span class="text" >Mobile Number</span>
                      <span class="line"></span>
                  </div>
@@ -47,7 +47,7 @@
 
             <div class="col">
                  <div class="inputBox">
-                     <input type="text" name="" required="required"/>
+                     <input type="text" name="subject" required="required"/>
                      <span class="text" >Subject/Services</span>
                      <span class="line"></span>
                  </div>
@@ -58,7 +58,7 @@
             
             <div class="col">
                  <div class="inputBox question">
-                     <textarea required="required"/></textarea>
+                     <textarea required="required" name="enquiry"/></textarea>
                      <span class="text" >Your Enquiry</span>
                      <span class="line"></span>
                  </div>

@@ -4,7 +4,18 @@ const express = require('express')
 const mongoose = require('mongoose')
 const hbs = require('hbs')
 
-mongoose.connect('mongodb+srv://niks:niks@cluster0.g9uwq.mongodb.net/niks?retryWrites=true&w=majority', {
+// mongoose.connect('mongodb+srv://niks:niks@cluster0.g9uwq.mongodb.net/niks?retryWrites=true&w=majority', {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//     useCreateIndex: true,
+//     useFindAndModify:false
+// }).then(() => {
+//     console.log('Database connected')
+// }).catch(() => {
+//     console.log('Database connection failed')
+// })
+
+mongoose.connect('mongodb://localhost:27017/myapp', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
